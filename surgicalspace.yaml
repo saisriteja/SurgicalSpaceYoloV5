@@ -1,0 +1,9 @@
+train: ../images/train/ 
+val:  ../images/val/
+test: ../images/test/
+
+# number of classes
+nc: 21 
+
+# class names
+names: ['PullingSeminalVesicle', 'CuttingSeminalVesicle', 'SuckingBlood','SuckingSmoke', 'CuttingMesocolon', 'PullingTissue','CuttingTissue', 'BladderNeckDissection', 'PullingBladderNeck','ClippingSeminalVesicle', 'PullingVasDeferens','CuttingVasDeferens', 'ClippingBladderNeck', 'PullingProstate','CuttingThread', 'UrethraDissection', 'CuttingProstate','ClippingVasDeferens', 'BaggingProstate', 'BladderAnastomosis','ClippingTissue']
